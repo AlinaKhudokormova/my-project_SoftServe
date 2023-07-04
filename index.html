@@ -4,11 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Figmaland</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <style>
+        header {
+            display: flex; 
+            flex-direction: column;
+            justify-content: space-between;
+            box-sizing: border-box;
+            height: 100vh;
+            background-image: url(img/background_header.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .header__top {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header_left {
+            color: white;
+            display: inline-block;
+            width: 63px;
+            height: 48px;
+            padding: 10px;
+            gap: 10px;
+        }
+        .header_right {
+            display:flex;
+            justify-content: space-between;
+            width: 40.99px;
+            height: 40.99px;
+        }
+       
+        .header_center {
+            display:flex;
+            justify-content: space-between;
+            width: 206px;
+            height: 78px;
+        }
+
+        .header_title {
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello HTML</h1>
-    <img width="400" src="img/header-bg.png" alt="Header">
+    <header class="header">
+        <div class="header_top">
+        <nav>
+            <ol>
+                <li class="header_left"><a>Home</a></li>
+                <li class="header_left"><a>Product</a></li>
+                <li class="header_left"><a>Pricing</a></li>
+                <li class="header_left"><a>About</a></li>
+                <li class="header_left"><a>Contact</a></li>
+            </ol>
+        </nav>  
+
+            <img class="header_center" src="img/logo_center.png" alt="twitter">
+
+            <img class="header_right" src="img/twitter.png" alt="twitter">
+            <img class="header_right" src="img/facebook.png" alt="facebook">
+            <img class="header_right" src="img/linkedin.png" alt="linkedin">
+        </div>
+            <h1 class="header_title">The best products <br> start with Figma</h1>
+
+       
+            
+    </header>
 </body>
 </html>
