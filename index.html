@@ -4,77 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Figmaland </title>
+    <title>Figmaland</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-    <style>
-        header {
-            display: flex; 
-            flex-direction: column;
-            justify-content: space-between;
-            box-sizing: border-box;
-            height: 100vh;
-            background-image: url(img/background_header.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-
-        .header__top {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .header_left {
-            color: white;
-            display: inline-block;
-            width: 63px;
-            height: 48px;
-            padding: 10px;
-            gap: 10px;
-        }
-        .header_right {
-            display:flex;
-            justify-content: space-between;
-            width: 40.99px;
-            height: 40.99px;
-        }
-       
-        .header_center {
-            display:flex;
-            justify-content: space-between;
-            width: 206px;
-            height: 78px;
-        }
-
-        .header_title {
-            color: white;
-        }
-    </style>
 </head>
+
 <body>
-    <header class="header">
-        <div class="header_top">
+    <header>
+        <div>
         <nav>
-            <ol>
-                <li class="header_left"><a>Home</a></li>
-                <li class="header_left"><a>Product</a></li>
-                <li class="header_left"><a>Pricing</a></li>
-                <li class="header_left"><a>About</a></li>
-                <li class="header_left"><a>Contact</a></li>
-            </ol>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>  
 
-            <img class="header_center" src="img/logo_center.png" alt="twitter">
-
-            <img class="header_right" src="img/twitter.png" alt="twitter">
-            <img class="header_right" src="img/facebook.png" alt="facebook">
-            <img class="header_right" src="img/linkedin.png" alt="linkedin">
+            <img src="img/logo_center.png" alt="twitter">
+        <nav>
+            <ul>
+                <li><a href="#"><img src="img/twitter.png" alt="twitter"> </a></li>
+                <li><a href="#"><img src="img/facebook.png" alt="facebook"> </a></li>
+                <li><a href="#"><img src="img/linkedin.png" alt="linkedin"> </a></li>
+            </ul>
+        </nav>
         </div>
-            <h1 class="header_title">The best products <br> start with Figma</h1>
 
-       
-            
+        <h1>The best products <br> start with Figma</h1>
+        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+        
+        <button> Try For Free </button>
+
+        <h2>Features</h2>
+        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><img src="img/features/opentype.png" alt="OpenType"</li>
+                    <li><img src="img/features/design.png" alt="Design"></li>
+                    <li><img src="img/features/fastest.png" alt="Fastest"></li>
+                </ul>
+            </nav>
+        </div>
+                     
     </header>
 </body>
 </html>
