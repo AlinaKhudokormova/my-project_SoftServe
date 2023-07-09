@@ -1,0 +1,6 @@
+.header__banner-title {
+    color: var(--banner-title-color);
+    gap: 10;
+    padding: 10;
+    font-family: var(--title-font-family);
+}
