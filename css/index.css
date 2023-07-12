@@ -1,6 +1,6 @@
 @import url(global.css);
+@import url(control.css);
 @import url(header.css);
-@import url(index.header-banner.css);
 @import url(index.features.css);
 @import url(index.partners.css);
 @import url(index.testimonials.css);

@@ -6,24 +6,26 @@
     padding: 0;
 }
 
+:root {
+    --links-item-color: white;
+    --banner-title-color: white;
+    --button-main: #2091F9; 
+    --button-separated: #DEDEDE;
+    --text-button-main: #FFFFFF;
+    --text-button-separated: #2091F9;
+    --pricing-background: #252B42;
+    font-family: 'Fredoka', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1024px;
+    margin: auto;
+}
+
 /* 
 img {
     display:block;
     width: 100%;
 }
 */
-
-header {
-    background-image: url(/img/background_header.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-direction: column;
-}
-
-:root {
-    --links-item-color: white;
-    --banner-title-color: white;
-    --title-font-family: 'Fredoka', sans-serif;
-    scroll-behavior: smooth;
-}
